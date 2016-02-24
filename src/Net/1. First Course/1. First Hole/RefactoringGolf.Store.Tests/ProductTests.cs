@@ -1,6 +1,8 @@
-namespace RefactoringGolf.Stack.Tests
+namespace RefactoringGolf.Store.Tests
 {
     using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+    using RefactoringGolf.Store;
 
     [TestClass]
     public class ProductTests
