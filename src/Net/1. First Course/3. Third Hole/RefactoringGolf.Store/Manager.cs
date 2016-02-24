@@ -1,4 +1,4 @@
-namespace RefactoringGolf.Stack
+namespace RefactoringGolf.Store
 {
     public class Manager : Employee
     {
@@ -6,7 +6,7 @@ namespace RefactoringGolf.Stack
             : base(firstName, lastName, fixedSalary)
         {
         }
-
+        
         public decimal SalaryAfterAdditionsAndDeductions()
         {
             decimal benefits = SalaryBenefits();

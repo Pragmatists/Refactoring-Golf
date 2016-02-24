@@ -51,8 +51,7 @@ namespace RefactoringGolf.Store
 
         private decimal Tax(decimal totalItems)
         {
-            var tax = totalItems * 5 / 100;
-            return tax;
+            return totalItems * 5 / 100;
         }
 
         private decimal TotalItems()

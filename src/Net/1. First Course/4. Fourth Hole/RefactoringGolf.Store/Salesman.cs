@@ -2,9 +2,9 @@ namespace RefactoringGolf.Store
 {
     public class Salesman : Employee
     {
-        public int CommissionPorcentage{ get; set; }
+        public int CommissionPorcentage { get; set; }
 
-        public decimal MonthQuota{ get; private set; }
+        public decimal MonthQuota { get; private set; }
 
         public Salesman(string firstName, string lastName, decimal fixedSalary, int commissionPorcentage)
             : base(firstName, lastName, fixedSalary)

@@ -1,4 +1,4 @@
-namespace RefactoringGolf.Stack
+namespace RefactoringGolf.Store
 {
     using System;
     using System.Collections.Generic;
@@ -51,8 +51,7 @@ namespace RefactoringGolf.Stack
 
         private decimal Tax(decimal totalItems)
         {
-            var tax = totalItems * 5 / 100;
-            return tax;
+            return totalItems * 5 / 100;
         }
 
         private decimal TotalItems()
