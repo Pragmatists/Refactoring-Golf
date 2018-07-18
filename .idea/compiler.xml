@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="first-hole" />
+        <module name="fourth-hole" />
+        <module name="initial-tee" />
+        <module name="second-hole" />
+        <module name="third-hole" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="first-course" target="1.5" />
+      <module name="first-hole" target="1.5" />
+      <module name="fourth-hole" target="1.5" />
+      <module name="initial-tee" target="1.5" />
+      <module name="second-hole" target="1.5" />
+      <module name="third-hole" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
